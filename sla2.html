@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Livre-se</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="sla.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif;background-color:black;}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Fechar Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Categorias</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Conta</a>
+</nav>
+<!-- Top menu -->
+<div class="w3-top"style="background-color:#DCDCDC; border-radius: 0 0 25px 25px">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto;">
+    <div class="w3-button w3-padding-16 w3-left"style="background-color:#DCDCDC;" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16"style="background-color:#DCDCDC">E-Mail</div>
+    <form action="#"style="background-color:#DCDCDC; ">
+      <img src="livrese.jpg" alt="" style="width: 130px;height: 75px;border-radius: 200px; margin-top: 0.9em;">
+                <input type="text" class="barra" name="search" placeholder="O que você está a procura?"style="margin-top:1em;margin-left:9em; width:20em;">
+                <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg></button>
+            </form>
+
+    <div class="w3-center w3-padding-16"style="background-color:#DCDCDC;"></div>
+
+  </div>
+</div>
+<br><br><br>
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px;background-color:#87CEEB;border-radius:2em;">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+<h1>Informações Corporativas</h1>
+      <h3>Histórico da empresa</h3> A Livre-se é uma iniciativa privada entre seus fundadores, Maykel, Marcio, Rilardi e João Victor. A ideia surge de um antigo encontro em um trabalho de faculdade, em que o grupo teve um ótimo desempenho. A partir daí, eles se reunem e criam a empresa Livre-se, com a missão de levar e fomentar à leitura na região de Campo Grande;
+<p><h3>Marca</h3> Livre-se</p>
+<p><h3>Tecnologia utilizadas</h3> Website, redes sociais, boca a boca;</p>
+<p><h3>Missão, visão e valores:</h3> Valor: O maior valor da Livre-se é o foco em sua entrega de qualidade à todos seus clientes, criando um relacionamento empresa-cliente através da literatura. Missão: Aumentar o alcance de vendas na região de Campo Grande, com maior rapidez de entrega e qualidade. Visão: Ser um dos principais distribuidores de livros no estado de Mato Grosso do Sul chegando até o infinito e além.</p>
+<p><h3>Tipo de negócio (Produto, praça, preço e promoção)</h3> Produto: Livros; Praça: A Livre-se é uma empresa 100% digital. Preço: Os preços dos livros são compostos pelos custos básicos de produção e custos de ações sociais, elevados à margem dos preços de mercado. Promoção: A Livre-se foca na divulgação atráves das redes sociais, como o Instagram. Ademais, a Livre-se possui descontos utilizando cupons e outras promoções sazonais em datas/semanas específicas.</p>
+<p><h3>Responsabilidade social:</h3> A Livre-se possui uma política de incentivo ambiental, com parcerias com diversas empresas do agronegócio, em que durante uma semana de cada mês, todas os livros vendidos são enviados com um pacotinho de sementes, prontas para plantio. Além disso, a Livre-se a cada 3.000,00 reais vendidos, investe 7%  em ações de produção ambiental consciente, junto aos seus fornecedores.</p>
+
+  </div>
+  <hr>
+  <footer class="w3-row-padding w3-padding-32"style="margin-left: 10em;">
+    <div class="w3-third">
+      <h3>INSTITUCIONAL</h3>
+      <a href="#">Informações Corporativas</a style="">
+        <br>
+      <a href="#">Politicas da Empresa</a style="">
+
+
+    </div>
+
+    <div class="w3-third"style="margin-left: 13em;">
+      <h3>CONTATOS</h3>
+      <a href="https://goo.gl/maps/bCRbHExG7y8pCFqNA">Rua Taquari, 831 - Santo Antonio, Campo Grande-MS</a>
+      <a href="#">Fone: 67 94002-8922</a>
+      <a href="#">Contatoslivros@livre-se.com.br</a>
+
+    </div>
+
+    <div class="w3-third w3-serif" style=" margin-right: 25em;">
+      <h3>Formas de Pagamentos</h3 style="text-align: center; " >
+      <img src="pagamentos.webp" alt="" >
+
+
+    </div>
+  </footer>
+
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Siga-nos</h4>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+</footer>
