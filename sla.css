@@ -1,0 +1,12 @@
+.container{
+    margin-left: px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2em;
+    width: 100%;
+
+}
